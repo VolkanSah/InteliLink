@@ -125,31 +125,6 @@ If you appreciate my work, please consider supporting me:
 - :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
 - Follow me: Stay updated with my latest projects and releases.
 
- License . See the [LICENSE](LICENSE) file for details 
+## License Privat, till yet!
  
-# InteliLink folder struktur
-```
-InteliLink/
-├── data/
-│   ├── domains.txt
-│   ├── proxies.txt
-│   └── contacts.csv
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── loader.py
-│   ├── scraper.py
-│   ├── parser.py
-│   └── database.py
-├── logs/
-│   └── scraping.log
-├── tests/
-│   ├── __init__.py
-│   ├── test_loader.py
-│   ├── test_scraper.py
-│   ├── test_parser.py
-│   └── test_database.py
-├── requirements.txt
-├── setup_project.py  # <- Temporär hier
 
-```
