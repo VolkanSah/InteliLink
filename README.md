@@ -1,4 +1,5 @@
 # InteliLink (beta)
+#### new release 2024
 
 InteliLink is a web scraper designed to check publicly accessible websites from a list of domains, extract imprint and contact information, and match this information with an existing CSV database. If the contact information is not in the database, it will be added.
 
@@ -114,7 +115,19 @@ To run the tests, use the following command:
 python -m unittest discover -s tests
 ```
 
-# InteliLink
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request.
+
+## ❤️ Thank you for your support!
+If you appreciate my work, please consider supporting me:
+
+- Become a Sponsor: [Link to my sponsorship page](https://github.com/sponsors/volkansah)
+- :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
+- Follow me: Stay updated with my latest projects and releases.
+
+ License . See the [LICENSE](LICENSE) file for details 
+ 
+# InteliLink folder struktur
 ```
 InteliLink/
 ├── data/
