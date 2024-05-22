@@ -1,7 +1,6 @@
 import logging
-from loader import load_proxies, load_domains
+from loader import load_proxies, load_domains, load_csv_database, save_csv_database
 from scraper import fetch_website, parse_website
-from linkedin_parser import fetch_linkedin_profile, parse_linkedin_profile
 from logger_config import setup_logger
 from database import create_connection, create_table, insert_contact, fetch_all_contacts
 
@@ -55,22 +54,4 @@ def main():
             contact_info = parse_website(html, url, proxies)
             if contact_info:
                 # Überprüfen, ob die Daten bereits in der SQLite-Datenbank vorhanden sind
-                if not any(contact['Webseite'] == url for contact in contacts):
-                    contact_info['Webseite'] = url
-                    insert_contact(conn, contact_info)
-                    logger.info(f"Neue Kontaktdaten gefunden und hinzugefügt für {url}")
-
-        # LinkedIn-Profil überprüfen
-        linkedin_html = fetch_linkedin_profile(domain)
-        if linkedin_html:
-            linkedin_info = parse_linkedin_profile(linkedin_html)
-            if linkedin_info:
-                insert_contact(conn, linkedin_info)
-                logger.info(f"LinkedIn-Kontaktdaten hinzugefügt für {domain}")
-
-    # Verbindung schließen
-    conn.close()
-    logger.info("Programm beendet und Daten gespeichert")
-
-if __name__ == '__main__':
-    main()
+                if not any(contact['Webseite'] == url for
