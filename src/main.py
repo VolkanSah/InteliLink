@@ -54,4 +54,14 @@ def main():
             contact_info = parse_website(html, url, proxies)
             if contact_info:
                 # Überprüfen, ob die Daten bereits in der SQLite-Datenbank vorhanden sind
-                if not any(contact['Webseite'] == url for
+                if not any(contact['Webseite'] == url for contact in contacts):
+                    contact_info['Webseite'] = url
+                    insert_contact(conn, contact_info)
+                    logger.info(f"Neue Kontaktdaten gefunden und hinzugefügt für {url}")
+
+    # Verbindung schließen
+    conn.close()
+    logger.info("Programm beendet und Daten gespeichert")
+
+if __name__ == '__main__':
+    main()
