@@ -13,18 +13,12 @@ files = [
     "InteliLink/data/domains.txt",
     "InteliLink/data/proxies.txt",
     "InteliLink/data/contacts.csv",
-    "InteliLink/src/__init__.py",
-    "InteliLink/src/main.py",
-    "InteliLink/src/loader.py",
-    "InteliLink/src/scraper.py",
-    "InteliLink/src/parser.py",
-    "InteliLink/src/database.py",
     "InteliLink/tests/__init__.py",
     "InteliLink/tests/test_loader.py",
     "InteliLink/tests/test_scraper.py",
     "InteliLink/tests/test_parser.py",
-    "InteliLink/tests/test_database.py",
-    "InteliLink/requirements.txt"
+    "InteliLink/tests/test_database.py"
+
 ]
 
 # Ordner erstellen
