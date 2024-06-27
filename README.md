@@ -118,13 +118,19 @@ python -m unittest discover -s tests
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request.
 
-## ❤️ Thank you for your support!
-If you appreciate my work, please consider supporting me:
+## Your Support
+If you find this project useful and want to support it, there are several ways to do so:
 
-- Become a Sponsor: [Link to my sponsorship page](https://github.com/sponsors/volkansah)
-- :star: my projects: Starring projects on GitHub helps increase their visibility and can help others find my work. 
-- Follow me: Stay updated with my latest projects and releases.
+- If you find the white paper helpful, please ⭐ it on GitHub. This helps make the project more visible and reach more people.
+- Become a Follower: If you're interested in updates and future improvements, please follow my GitHub account. This way you'll always stay up-to-date.
+- Learn more about my work: I invite you to check out all of my work on GitHub and visit my developer site https://volkansah.github.io. Here you will find detailed information about me and my projects.
+- Share the project: If you know someone who could benefit from this project, please share it. The more people who can use it, the better.
+**If you appreciate my work and would like to support it, please visit my [GitHub Sponsor page](https://github.com/sponsors/volkansah). Any type of support is warmly welcomed and helps me to further improve and expand my work.**
 
-## License Privat, till yet!
+Thank you for your support! ❤️
+
+##### Copyright S. Volkan Kücükbudak
+
+## License Privat, till yet! Only for privat use!
  
 
