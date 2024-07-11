@@ -86,11 +86,6 @@ The goal of this project is to create a web scraper named InteliLink that:
     pip install -r requirements.txt
     ```
 
-4. Run the setup script to create the necessary directory structure and files:
-
-    ```bash
-    python setup_project.py
-    ```
 
 ## Usage
 
