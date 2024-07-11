@@ -2,22 +2,15 @@ import os
 
 # Basis-Ordnerstruktur
 folders = [
-    "InteliLink/data",
-    "InteliLink/src",
-    "InteliLink/logs",
     "InteliLink/tests"
 ]
 
 # Leere Dateien
 files = [
-    "InteliLink/data/domains.txt",
-    "InteliLink/data/proxies.txt",
-    "InteliLink/data/contacts.csv",
-    "InteliLink/tests/__init__.py",
-    "InteliLink/tests/test_loader.py",
-    "InteliLink/tests/test_scraper.py",
-    "InteliLink/tests/test_parser.py",
-    "InteliLink/tests/test_database.py"
+    "data/domains.txt",
+    "data/proxies.txt",
+    "data/contacts.csv",
+    "tests/__init__.py"
 
 ]
 
