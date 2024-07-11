@@ -1,5 +1,6 @@
 .github/
-.github
+data/contacts.db
+logs/scrapping.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
