@@ -1,4 +1,4 @@
-# InteliLink (only ~ 95% ready, still testing)
+# InteliLink (only ~ 96% ready, still testing)
 #### new release version 2.0 (2024)
 
 InteliLink is a web scraper designed to check publicly accessible websites from a list of domains, extract imprint and contact information, and match this information with an existing CSV database. If the contact information is not in the database, it will be added.
